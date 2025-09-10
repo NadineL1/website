@@ -1,0 +1,18 @@
+body{
+    background-color: #7a5c75;
+    color: #f9e0ff;
+}
+header{
+    text-align: center;
+    border: #f9e0ff double 20px;
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    border: #f9e0ff outset 5px;
+    color:#F9e0ff;
+}
+img{
+   max-inline-size: 100%; 
+   display: block;
+}
