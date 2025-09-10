@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 body {
     background-color: #f9e0ff ;
     color: #7C5746;
@@ -11,10 +9,10 @@ body {
      margin-left: 150px;
      width: 400px ;
      height: 427px;
-
 }
 li{
-    margin-block: 5px;}
+    margin-block: 5px;  
+}
 header
 {
     text-align: center; 
@@ -22,8 +20,9 @@ header
     margin: 0%;
 }
 .two-column-layout{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 a{
     color: #7a5c75;
