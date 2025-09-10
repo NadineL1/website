@@ -1,7 +1,20 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: #f9e0ff ;
     color: #7C5746;
+    line-height: 1.4;
 }
+.text{
+     font-size: 1.25rem;
+     margin-left: 150px;
+     width: 400px ;
+     height: 427px;
+
+}
+li{
+    margin-block: 5px;}
 header
 {
     text-align: center; 
@@ -12,6 +25,9 @@ header
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+a{
+    color: #7a5c75;
+}
 h1{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,6 +37,11 @@ h1{
 img{
    max-inline-size: 100%; 
    display: block;
+}
+
+.resize {
+    width: auto;
+    height: auto;
 }
 footer{
     text-align: center;

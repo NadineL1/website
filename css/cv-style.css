@@ -7,6 +7,9 @@ header{
     border: #f9e0ff double 20px;
     margin: 0%;
 }
+a{
+    color: #50382d;
+}
 h1{
     text-align: center;
     border: #f9e0ff outset 5px;
