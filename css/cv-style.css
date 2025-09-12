@@ -10,10 +10,35 @@ header{
 a{
     color: #50382d;
 }
+.me{
+    text-align: center;
+}
+
 h1{
     text-align: center;
     border: #f9e0ff outset 5px;
     color:#F9e0ff;
+}
+.two-column-layout{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+.erfarenhet{
+    display: block;
+    float: left;
+    width: 400px;
+    margin-left: 120px;
+    margin-right: 90px;
+    
+}
+.varför{
+    display: block;
+    float: right;
+    width: 400px;
+    margin-left: 120 px;
+    margin-right: 70px;
 }
 img{
    max-inline-size: 100%; 
